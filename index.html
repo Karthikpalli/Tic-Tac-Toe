@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="parent">
+        <div id="main">
+            <h1>Tic Tac Toe</h1>
+            <div id="game">
+                <div id="cell1" class="cell" onclick="playClick('cell1')" ></div>
+                <div id="cell2" class="cell" onclick="playClick('cell2')" ></div>
+                <div id="cell3" class="cell" onclick="playClick('cell3')" ></div>
+                <div id="cell4" class="cell" onclick="playClick('cell4')" ></div>
+                <div id="cell5" class="cell" onclick="playClick('cell5')" ></div>
+                <div id="cell6" class="cell" onclick="playClick('cell6')" ></div>
+                <div id="cell7" class="cell" onclick="playClick('cell7')" ></div>
+                <div id="cell8" class="cell" onclick="playClick('cell8')" ></div>
+                <div id="cell9" class="cell" onclick="playClick('cell9')" ></div>
+            </div>
+            <h1 id="turn">O's turn</h1>
+            <h1 id="result"></h1>
+            <button onclick="restart()">Restart</button>
+        </div>
+    </div>
+
+
+    <script src="script2.js"></script>
+</body>
+</html>
