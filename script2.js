@@ -15,7 +15,7 @@ function playClick(cellid){
                 count++
             }
             else{
-                alert("Override")
+                alert("Override is not posssible")
                 acc=1
             }
             checkWinner()
@@ -40,7 +40,7 @@ function playClick(cellid){
             }
 
             else{
-                alert("Override")
+                alert("Override is not possible")
                 acc=1
             }
             checkWinner()
@@ -112,4 +112,5 @@ function checkWinner(){
         document.getElementById('result').innerHTML = "Game Drawn"
         gameActive = false
     }
+
 }
